@@ -4,6 +4,7 @@ import SavedList from './Movies/SavedList.js';
 import MovieList from './Movies/MovieList.js';
 import Movie from './Movies/Movie.js';
 
+
 const App = () => {
   const [savedList, setSavedList] = useState( [] );
 
