@@ -34,7 +34,9 @@ const MovieList = props => {
 
 function MovieDetails({ movie }) {
   return (
-    <MovieCard movie={movie} />
+    <MovieCard title={movie.title} director={movie.director} 
+               metascore={movie.metascore} stars={movie.stars} 
+               saveMovie={movie.saveMovie}  />
   );
 }
 
